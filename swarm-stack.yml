@@ -1,7 +1,7 @@
 version: "3.9"
 services:
 iris-ml:
-image: ghcr.io/Rajeshvenkatkrishna/iris-ml-app:latest
+image: ghcr.io/rajeshvenkatkrishna/iris-ml-app:latest
 ports:
 - "5000:5000"
 deploy:
