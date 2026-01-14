@@ -26,8 +26,8 @@ jobs:
 
       - name: Build image
         run: |
-          docker build -t ghcr.io/Rajeshvenkatkrishna/iris-ml-app:latest .
+          docker build -t ghcr.io/rajeshvenkatkrishna/iris-ml-app:latest .
 
       - name: Push image
         run: |
-          docker push ghcr.io/Rajeshvenkatkrishna/iris-ml-app:latest
+          docker push ghcr.io/rajeshvenkatkrishna/iris-ml-app:latest
